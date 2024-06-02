@@ -81,6 +81,4 @@ const galleryList = images
     )
     .join("");
 
-    
-
 const lightbox = new SimpleLightbox('.gallery a', { /* options */ });
