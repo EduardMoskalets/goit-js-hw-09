@@ -1,3 +1,6 @@
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
+
 const images = [
  {
      preview:
@@ -77,3 +80,7 @@ const galleryList = images
 </li>`
     )
     .join("");
+
+    
+
+const lightbox = new SimpleLightbox('.gallery a', { /* options */ });
