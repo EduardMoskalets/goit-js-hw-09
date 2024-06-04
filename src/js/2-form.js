@@ -56,7 +56,7 @@ function handlerSubmit(event) {
   const message = form.elements.message.value.trim();
 
   if (email === "" || message === "") {
-    return alert("All form fields must be filled in")
+    return alert("Please feel out all fields")
   }
 
   localStorage.removeItem("feedback-form-state");
